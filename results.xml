@@ -1,0 +1,17 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="18.508188">
+<testsuite name="BlazeDemo_POM.spec.js" timestamp="2026-03-31T15:40:19.032Z" hostname="chromium" tests="1" failures="0" skipped="0" time="16.139" errors="0">
+<testcase name="Blazedemo page object model test" classname="BlazeDemo_POM.spec.js" time="16.139">
+<system-out>
+<![CDATA[Samsung galaxy s6
+product found..........
+Samsung galaxy s6
+added product found in the cart page..........
+Initial cart count: [33m3[39m
+Remaining: [33m2[39m
+Remaining: [33m1[39m
+Remaining: [33m0[39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Samsung galaxy s6
+product found..........
+Samsung galaxy s6
+added product found in the cart page..........
+Initial cart count: 3
+Remaining: 2
+Remaining: 1
+Remaining: 0

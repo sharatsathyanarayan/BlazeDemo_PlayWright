@@ -1,0 +1,185 @@
+{
+  "config": {
+    "configFile": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/playwright.config.js",
+    "rootDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/node_modules/allure-playwright/dist/cjs/index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/sharats/Documents/Playwright_Workspace/PlayWright_Basics/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "BlazeDemo_POM.spec.js",
+      "file": "BlazeDemo_POM.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Blazedemo page object model test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16139,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "product found..........\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "added product found in the cart page..........\n"
+                    },
+                    {
+                      "text": "Initial cart count: \u001b[33m3\u001b[39m\n"
+                    },
+                    {
+                      "text": "Remaining: \u001b[33m2\u001b[39m\n"
+                    },
+                    {
+                      "text": "Remaining: \u001b[33m1\u001b[39m\n"
+                    },
+                    {
+                      "text": "Remaining: \u001b[33m0\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-31T15:40:19.352Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e6fb91e8f4c42fce78b8-f8509cf97f4b363e021c",
+          "file": "BlazeDemo_POM.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-31T15:40:19.005Z",
+    "duration": 18508.188000000002,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

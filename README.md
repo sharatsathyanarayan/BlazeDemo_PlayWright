@@ -1,23 +1,32 @@
-Website: https://www.demoblaze.com/index.html 
-Architecture: Page Object Model
+Website: https://www.demoblaze.com/index.html   
 
-Flow: 
-  a. Login
-  b. select multiple products and add it to the cart
-  c. Go to cart page
-  d. check if the cart contains the same products which was added
-  e. delete all the cart products
+Architecture: Page Object Model   
 
-Problem to be solved here: 
+
+Flow:   
+
+  a. Login   
+  
+  b. select multiple products and add it to the cart   
+  
+  c. Go to cart page   
+  
+  d. check if the cart contains the same products which was added   
+  
+  e. delete all the cart products   
+  
+
+Problem to be solved here:    
+
   Once you add multiple products into the cart page and then try to delete them, 
   everytime a product is deleted the DOM refreshes and count of products chnages,
-  so we need to take account of that and then write a logic.
+  so we need to take account of that and then write a logic.   
+  
 
-  async deleteFromCart() {
-        const rows = this.page.locator("tbody tr");
-
-        let count = await rows.count();
-        console.log("Initial cart count:", count);
+        async deleteFromCart() {
+            const rows = this.page.locator("tbody tr");
+            let count = await rows.count();
+            console.log("Initial cart count:", count);
 
         while (count > 0) {
             const firstRow = rows.first();
